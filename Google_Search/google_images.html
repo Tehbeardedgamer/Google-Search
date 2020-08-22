@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+</style>
+
+<head>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Search</title>
+</head>
+
+<body class="wrapper">
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="./google_search.html">SEARCH</a></li>
+        <li><a href="./google_advanced.html">ADVANCDED SEARCH</a></li>
+        <li><a href="./google_images.html">IMAGE SEARCH</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="form-container">
+    <form action="https://www.google.com/images" target="_blank">
+      <div id="input-container"> <input name="tbm" value="isch" type="hidden">
+        <input class="input" name="q" size="35" type="text" placeholder="Img Search">
+
+      </div>
+
+      <button type="submit" class="submitBtn">SEARCH</button>
+    </form>
+  </div>
+</body>
+
+</html>

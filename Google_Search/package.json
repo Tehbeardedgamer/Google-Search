@@ -1,0 +1,17 @@
+{
+  "name": "google_search",
+  "version": "1.0.0",
+  "description": "./Google Search",
+  "main": "google_search.html",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Tebeardedgamer",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "normalize.css": "^8.0.1",
+    "pkg": "^4.4.9",
+    "pug": "^3.0.0"
+  }
+}
